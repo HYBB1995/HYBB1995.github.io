@@ -1,35 +1,30 @@
-
-
-#Nombre{
-	font-family: Segoe UI;
-	font-size: 4em;
+#encabezado{
+	font-family: Segoe UI Black;
+	font-size: 45px;
 	text-align: center;
-
 }
+
+
 #logo{
-	width: 7.5em;
-	height: 5em;
-}
-.Menu{
-	color: #000000;
-	text-decoration: none;
-}
+	width: 230px;
+	height: 50px;
 
-.Menu:hover{
-	color: #FFFFFF;
-	text-decoration: none;
+}
+#ecbti{
+width: 230px;
+	height: 50px;
+
 }
 
-#Menu{
-	background-color: #FAD22E;
-	font-size: 1.85em;
-	color: #0C40F3;
-	text-decoration: none;
-	margin:auto;
-	font-family:Arial, Helvetica, sans-serif;
+h3{
+	color: #0957F3;
+	font-family: Verdana;
 }
-
-
+h4{
+	font-family: Verdana;
+	text-align: justify;
+}
+ 
 #contenedor{ 
     text-align: left; 
     margin: auto; 
@@ -38,15 +33,19 @@
 
 
 #Izquierdo{ 
-    width: 340px; 
+    width: 300px; 
+    height: 480px;
     float:left; 
     margin-right: 20px;
 }  
 #Derecho{ 
-    background-color: #F0F;
+	border-radius: 15px;
+    background-color: #F2F3F5;
     float: right;   
-    width: 200px; 
+    width: 270px; 
+    height: 480px;
     margin-left: 20px; 
+    line-height: 19px;
 } 
 #principal{ 
     background-color: #0fF; 
@@ -58,12 +57,11 @@
 	height: 37px;
 	background-color: #FAD22E;
 	font-size: 2em;
-
-
 }
 			
 			ul, ol {
 				list-style:none;
+				font-family: Constantia;
 			}
 			
 			.navbar > li {
