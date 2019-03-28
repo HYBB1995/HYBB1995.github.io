@@ -1,0 +1,94 @@
+
+
+#Nombre{
+	font-family: Segoe UI;
+	font-size: 4em;
+	text-align: center;
+
+}
+#logo{
+	width: 7.5em;
+	height: 5em;
+}
+.Menu{
+	color: #000000;
+	text-decoration: none;
+}
+
+.Menu:hover{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#Menu{
+	background-color: #FAD22E;
+	font-size: 1.85em;
+	color: #0C40F3;
+	text-decoration: none;
+	margin:auto;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+
+#contenedor{ 
+    text-align: left; 
+    margin: auto; 
+    padding: 0;  	
+} 
+
+
+#Izquierdo{ 
+    width: 340px; 
+    float:left; 
+    margin-right: 20px;
+}  
+#Derecho{ 
+    background-color: #F0F;
+    float: right;   
+    width: 200px; 
+    margin-left: 20px; 
+} 
+#principal{ 
+    background-color: #0fF; 
+  	margin: auto;
+} 
+
+#ContenedorMenu{
+	
+	height: 37px;
+	background-color: #FAD22E;
+	font-size: 2em;
+
+
+}
+			
+			ul, ol {
+				list-style:none;
+			}
+			
+			.navbar > li {
+				float:left;
+			}
+			
+			.navbar li a {
+				background-color: #FAD22E;
+				color: #0C40F3;
+				padding:0px 10px;
+				text-decoration:none;
+				display:block;
+			}
+			
+			.navbar li a:hover {
+				background-color:#434343;
+			}
+			
+			.navbar li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+				
+			}
+			
+			.navbar li:hover > ul {
+				display:block;
+			}
