@@ -4,15 +4,15 @@
 }
 
 header, nav, footer{
-	text-align:justify;
-	width: auto; min-width: 1200px;
+	text-align:center;
+	width: 960px;
 	margin: 0.25em auto;
 	padding: 0;
 }
 
 #logo{
-	width: 347px;
-	height: 67px;
+	width: 230px;
+	height: auto;
 }
 #ecbti{
 	width: auto;
@@ -32,7 +32,7 @@ section#inicio{
 
 
 #ContenedorMenu{
-	width: auto; min-width: 1200px;
+	max-width: 960px;
 	text-align:center;
 	height: 35px;
 	background-color: #41403b;
@@ -79,28 +79,4 @@ section#contenedor{
 	padding: 0;
 	justify-content: center;
 	align-items: center;
-}
-
-
-
-section#lectura1{
-	display: inline-block;
-	background-color: #88ACF5;
-	width: auto; min-width: 1200px;
-	margin: 0.25em auto;
-	padding: 0;
-	justify-content: left;
-	align-items: left;
-}
-section#lectura2{
-	display: inline-block;
-	background-color: #c4cee3;
-	width: auto; min-width: 1200px;
-	margin: 0.25em auto;
-	padding: 0;
-	justify-content: left;
-	align-items: left;
-}
-container {
- width: 30%
 }

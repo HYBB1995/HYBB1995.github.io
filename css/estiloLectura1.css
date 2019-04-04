@@ -1,0 +1,18 @@
+section#lectura1{
+	display: inline-block;
+	background-color: #88ACF5;
+	width: auto; min-width: 1200px;
+	margin: 0.25em auto;
+	padding: 0;
+	justify-content: left;
+	align-items: left;
+}
+section#lectura2{
+	display: inline-block;
+	background-color: #c4cee3;
+	width: auto; min-width: 1200px;
+	margin: 0.25em auto;
+	padding: 0;
+	justify-content: left;
+	align-items: left;
+}
