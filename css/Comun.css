@@ -35,28 +35,33 @@ section#inicio{
 	max-width: 960px;
 	text-align:center;
 	height: 35px;
-	background-color: #41403b;
+	background-color: #005883;
 	font-size: 1.6em;
+
 }
 			ul, ol {
 				list-style:none;
 				font-family: Constantia;
+			
 			}
 
 			.navbar > li {
 				float:left;
+				
 			}
 
 			.navbar li a {
-				background-color: #41403b;
+				background-color: #005883;
 				color: #939de7;
-				padding:0em 1em;
+				padding:0.1em 1em;
 				text-decoration:none;
 				display:block;
+				color: white;
 			}
 
 			.navbar li a:hover {
-				background-color:#434343;
+				background-color:#F0B429;
+				color: blue;
 			}
 
 			.navbar li ul {
@@ -73,7 +78,7 @@ section#inicio{
 
 section#contenedor{
 	display: flex;
-	background-color: #88ACF5;
+	background-color: #005883;
 	width: 960px;
 	margin: 0.25em auto;
 	padding: 0;
