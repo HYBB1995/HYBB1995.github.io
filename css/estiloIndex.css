@@ -1,5 +1,8 @@
+
 h1{
 	font-size: 2.3em;
+	width: auto;
+	height: auto;
 }
 
 section#principal, aside{
@@ -42,4 +45,3 @@ h4{
 	text-align: justify;
 	line-height: 1.25em;
 }
-
