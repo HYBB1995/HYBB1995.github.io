@@ -1,18 +1,208 @@
 section#lectura1{
-	display: inline-block;
-	background-color: #88ACF5;
-	width: auto; min-width: 1200px;
-	margin: 0.25em auto;
-	padding: 0;
-	justify-content: left;
-	align-items: left;
+	text-align:center;
+	width: 960px;
+	margin: 0.27em auto;
+	padding: 1em;
+	justify-content: center;
+
 }
-section#lectura2{
-	display: inline-block;
-	background-color: #c4cee3;
-	width: auto; min-width: 1200px;
+
+
+section#lectura2, section#lectura3{
+	text-align: center;
+	width: 960px;
+	margin: 0.27em auto;
+	padding: 1em;
+	color: #3d40bd;
+	justify-content: center;
+
+ }
+
+
+.arreglito{
+	clear: both;
+}
+
+p{
+	font-family:  Georgia, "Times New Roman", Times, serif;
+	font-size: 20px;
+	text-align: justify;
+	word-spacing: 10px;
+	color: rgba(255, 255, 255, 0.75)
+
+}
+
+.imagenes{
+	width: 45%;
+	padding: 5px;
+	border-radius: 15px;
+	transition: all 0.4s ease;
+
+
+}
+
+
+
+.imagenes:hover{
+	transform: scale(1.02);
+	border-radius: 30px;
+}
+
+
+*{
+	background: #34b9c6;
+}
+
+img{
+	width: 300px
+}
+
+h2{
+	text-align: center;
+	color: rgb(228, 255, 242);
+	font-size: 1.9em;
+	width: 960px;
+	height: auto;
+	text-shadow: 5px 5px 2px ##91eaf2;
+	font-family: Georgia, "Times New Roman",Times, serif;
+		background-color: rgba(22, 69, 240, 0.22);
+	clear:both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+header, nav{
+	text-align:center;
+	width: 960px;
 	margin: 0.25em auto;
 	padding: 0;
-	justify-content: left;
-	align-items: left;
+
+}
+
+header{
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	margin: 0 auto;
+}
+
+main{
+	padding: 75px;
+}
+
+nav{
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	margin: 55px auto;
+}
+footer{
+	background: #34b9c6;
+	padding: 1,9rem 0;
+	text-align: center;
+	width: 960px;
+	max width: 85%;
+	margin: 0.25em auto;
+	clear: both;
+}
+
+#logo{
+	width: 230px;
+	height: auto;
+	border-radius: 5px;
+}
+#ecbti{
+	width: auto;
+	height: 58px;
+	padding: 0px;
+	border-radius: 5px;
+
+}
+
+section#inicio{
+	display: inline-block;
+	text-align: center;
+	width: 360px;
+	height: 55px;
+	justify-content: center;
+	align-items: center;
+}
+
+
+#ContenedorMenu{
+	max-width: 960px;
+	text-align:center;
+	height: 35px;
+	background-color: #005883;
+	font-size: 1.6em;
+	border-radius: 5px;
+
+}
+			ul, ol {
+				list-style:none;
+				font-family: Constantia;
+
+			}
+
+			.navbar > li {
+				float:left;
+
+			}
+
+			.navbar li a {
+				background-color: #005883;
+				color: #939de7;
+				padding:0.1em 1em;
+				text-decoration:none;
+				display:block;
+				color: white;
+				transition: all 0.4s linear;
+				border-radius: 5px;
+			}
+
+			.navbar li a:hover {
+				background-color:#F0B429;
+				color: blue;
+			}
+
+			.navbar li ul {
+				display:none;
+				position:absolute;
+				min-width:160px;
+
+			}
+
+			.navbar li:hover > ul {
+				display:block;
+
+			}
+
+
+
+
+section#contenedor{
+	display: flex;
+	background-color: #005883;
+	width: 960px;
+	margin: 0.25em auto;
+	padding: 0;
+	justify-content: center;
+	align-items: center;
 }
