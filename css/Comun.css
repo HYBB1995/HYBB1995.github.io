@@ -85,3 +85,7 @@ section#contenedor{
 	justify-content: center;
 	align-items: center;
 }
+
+#pie{
+	width: 970px;
+}

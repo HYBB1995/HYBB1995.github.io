@@ -46,10 +46,12 @@ p a {
 	border-radius: 15px;
 	transition: all 0.4s ease;
 
-
-
 }
 
+.imgperfil{
+	height: 250px;
+	width: auto;
+}
 
 
 .imagenes:hover{
@@ -77,142 +79,4 @@ h2{
 		background-color: rgba(22, 69, 240, 0.09);
 	clear:both;
 	border-radius: 10px
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-*{
-	padding: 0;
-	margin: 0;
-}
-
-header, nav{
-	text-align:center;
-	width: 960px;
-	margin: 0.25em auto;
-	padding: 0;
-
-}
-
-header{
-	position: fixed;
-	left: 0;
-	right: 0;
-	top: 0;
-	margin: 0 auto;
-}
-
-main{
-	padding: 75px;
-}
-
-nav{
-	position: fixed;
-	left: 0;
-	right: 0;
-	top: 0;
-	margin: 55px auto;
-}
-footer{
-	background: #34b9c6;
-	padding: 1,9rem 0;
-	text-align: center;
-	width: 960px;
-	max width: 85%;
-	margin: 0.25em auto;
-	clear: both;
-}
-
-#logo{
-	width: 230px;
-	height: auto;
-	border-radius: 5px;
-}
-#ecbti{
-	width: auto;
-	height: 58px;
-	padding: 0px;
-	border-radius: 5px;
-
-}
-
-section#inicio{
-	display: inline-block;
-	text-align: center;
-	width: 360px;
-	height: 55px;
-	justify-content: center;
-	align-items: center;
-}
-
-
-#ContenedorMenu{
-	max-width: 960px;
-	text-align:right;
-	height: 35px;
-	background-color: #005883;
-	font-size: 1.6em;
-	border-radius: 5px;
-
-}
-			ul, ol {
-				list-style:none;
-				font-family: Constantia;
-
-			}
-
-			.navbar > li {
-				float:left;
-
-			}
-
-			.navbar li a {
-				background-color: #005883;
-				color: #939de7;
-				padding:0.1em 1em;
-				text-decoration:none;
-				display:block;
-				color: white;
-				transition: all 0.4s linear;
-				border-radius: 5px;
-			}
-
-			.navbar li a:hover {
-				background-color:#F0B429;
-				color: blue;
-			}
-
-			.navbar li ul {
-				display:none;
-				position:absolute;
-				min-width:160px;
-
-			}
-
-			.navbar li:hover > ul {
-				display:block;
-
-			}
-
-
-
-
-section#contenedor{
-	display: flex;
-	background-color: #005883;
-	width: 960px;
-	margin: 0.25em auto;
-	padding: 0;
-	justify-content: center;
-	align-items: center;
 }
