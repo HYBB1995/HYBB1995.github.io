@@ -8,7 +8,7 @@ section#lectura1{
 }
 
 
-section#lectura2, section#lectura3{
+section#lectura2, section#lectura3, section#lectura4, section#mauricio, section#hector{
 	text-align: center;
 	width: 960px;
 	margin: 0.27em auto;
@@ -28,8 +28,16 @@ p{
 	font-size: 20px;
 	text-align: justify;
 	word-spacing: 10px;
-	color: rgba(255, 255, 255, 0.75)
+	color: #eaeaea
 
+}
+
+p a {
+	font-family:  Georgia, "Times New Roman", Times, serif;
+	font-size: 27px;
+	text-align: justify;
+	word-spacing: 10px;
+	color: #eaeaea
 }
 
 .imagenes{
@@ -37,6 +45,7 @@ p{
 	padding: 5px;
 	border-radius: 15px;
 	transition: all 0.4s ease;
+
 
 
 }
@@ -50,7 +59,7 @@ p{
 
 
 *{
-	background: #34b9c6;
+	background: #00BDAA;
 }
 
 img{
@@ -59,14 +68,15 @@ img{
 
 h2{
 	text-align: center;
-	color: rgb(228, 255, 242);
-	font-size: 1.9em;
+	color: #eaeaea;
+	font-size: 1.6em;
 	width: 960px;
 	height: auto;
-	text-shadow: 5px 5px 2px ##91eaf2;
+	text-shadow: 2px 2px 2px #eaeaea;
 	font-family: Georgia, "Times New Roman",Times, serif;
-		background-color: rgba(22, 69, 240, 0.22);
+		background-color: rgba(22, 69, 240, 0.09);
 	clear:both;
+	border-radius: 10px
 }
 
 
@@ -148,7 +158,7 @@ section#inicio{
 
 #ContenedorMenu{
 	max-width: 960px;
-	text-align:center;
+	text-align:right;
 	height: 35px;
 	background-color: #005883;
 	font-size: 1.6em;
