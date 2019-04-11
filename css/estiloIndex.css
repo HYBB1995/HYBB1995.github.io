@@ -1,0 +1,47 @@
+
+h1{
+	font-size: 2.3em;
+	width: auto;
+	height: auto;
+}
+
+section#principal, aside{
+	margin: 0.25em auto;
+	padding: 0;
+	display: inline-block;
+}
+
+section#principal{
+	background-color: blue;
+	width: 640px;
+	height: 480px;
+}
+
+
+section#central, section#derecho{
+	background-color: #F2F3F5;
+	display: inline-block;
+	height: 450px;
+	margin: 0.25em auto;
+	padding: 0;
+	text-align: justify;
+}
+section#central{
+	width: 400px;
+}
+
+section#derecho{
+	width: 300px;
+}
+
+
+h3{
+	color: #0957F3;
+	font-family: Verdana;
+	line-height: 1.5em;
+}
+h4{
+	font-family: Verdana;
+	text-align: justify;
+	line-height: 1.25em;
+}

@@ -1,0 +1,48 @@
+h3{
+  font-family: Helvetica;
+  
+}
+
+section#actividad1{
+  text-align: center;
+  width: 960px;
+  padding: 0;
+  margin: 0.2em auto;
+}
+
+section.pregunta, section#final{
+  width: 945px;
+  padding: 0.25em;
+  margin: 0.2em;
+  border-radius: 0.5em;
+  background-color: white;
+  font-family: Verdana;
+}
+
+section#final{
+  text-align: center;
+}
+section#video{
+  text-align: left;
+}
+
+section.p3{
+  text-align: center;
+  display: inline-flex;
+}
+
+.imgrta{
+  height: 100px;
+}
+
+section#pr4{
+  text-align: center;
+}
+
+p{
+  text-align: left;
+}
+p#video{
+  text-align: center;
+}
+
