@@ -10,7 +10,7 @@ section#actividad1{
   margin: 0.2em auto;
 }
 
-section.par, section.impar, section#final{
+section.pregunta, section#final{
   width: 945px;
   padding: 0.25em;
   margin: 0.2em;
@@ -21,6 +21,9 @@ section.par, section.impar, section#final{
 
 section#final{
   text-align: center;
+}
+section#video{
+  text-align: left;
 }
 
 section.p3{
@@ -35,3 +38,11 @@ section.p3{
 section#pr4{
   text-align: center;
 }
+
+p{
+  text-align: left;
+}
+p#video{
+  text-align: center;
+}
+
