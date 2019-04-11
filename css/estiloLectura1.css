@@ -28,16 +28,21 @@ p{
 	font-size: 20px;
 	text-align: justify;
 	word-spacing: 10px;
-	color: #eaeaea
+	color: black;
 
 }
 
-p a {
+p, a, li {
 	font-family:  Georgia, "Times New Roman", Times, serif;
 	font-size: 27px;
 	text-align: justify;
 	word-spacing: 10px;
-	color: #eaeaea
+	color: black;
+}
+
+li.subtitulo{
+font-size: 30px;
+font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .imagenes{
@@ -61,7 +66,7 @@ p a {
 
 
 *{
-	background: #00BDAA;
+	background: white;
 }
 
 img{
@@ -70,13 +75,19 @@ img{
 
 h2{
 	text-align: center;
-	color: #eaeaea;
+	color: black;
 	font-size: 1.6em;
 	width: 960px;
 	height: auto;
 	text-shadow: 2px 2px 2px #eaeaea;
 	font-family: Georgia, "Times New Roman",Times, serif;
-		background-color: rgba(22, 69, 240, 0.09);
+		background-color: #F0B429;
 	clear:both;
 	border-radius: 10px
+}
+
+h3{
+	color: black;
+	font-size: 1.6em;
+	font-family: Georgia, "Times New Roman",Times, serif;
 }
