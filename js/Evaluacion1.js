@@ -1,5 +1,6 @@
 
 var total=0;
+    
 
 function ejer1 (){
     var t=0;
@@ -50,3 +51,26 @@ if ((total >=30) && (total < 40))
 
 
 }
+
+
+function ensamble2(){
+
+    if (((document.getElementById("A3_r1").value) == "2") )   
+        total += 10;
+    if (((document.getElementById("A3_r2").value) == "4") ) 
+        total += 10;
+    if (((document.getElementById("A3_r3").value) == "1") )   
+        total += 10;
+    if (((document.getElementById("A3_r4").value) == "3") ) 
+        total += 10;
+
+        document.getElementById("resultado").value = total;
+
+        if (total == 40)
+            document.getElementById("nota").value = 'EXCELENTE';
+        if (total < 30)
+            document.getElementById("nota").value = 'MALO';
+        if (total == 30)
+            document.getElementById("nota").value = 'BUENO';
+
+   }
